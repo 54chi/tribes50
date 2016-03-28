@@ -14,3 +14,6 @@ The painful but fun way of learning stuff that I have no experience about (yet):
 - 3/26/2016: Started looking into Elm stuff and the Phoenix+Trello example
 - 3/27/2016: I couldn't make Elm and Phoenix like each other (I was using [this](https://medium.com/@diamondgfx/setting-up-elm-with-phoenix-be3a9f55bac2#.mvw1cgk06) as a base)
 - 3/28/2016: I could make Elm and Phoenix like each other. It is basically [this](http://www.cultivatehq.com/posts/phoenix-elm-2/). Started studying a [cloned voting app](https://github.com/terakilobyte/phoenix-elm-webpack-example). Destroyed the Trello example (it was just the authentication piece so far anyways)
+- 3/28/2016: Cloned TetraKb's bingo app. Screenshots:
+    - ![Before SCSS](screens/Screenshot1.PNG)
+    - ![With SCSS](screens/Screenshot2.PNG)
