@@ -19,7 +19,7 @@ defmodule Pepe01.Mixfile do
   def application do
     [mod: {Pepe01, []},
      applications: [:phoenix, :phoenix_html, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex]]
+                    :phoenix_ecto, :postgrex, :openmaize]]
   end
 
   # Specifies which paths to compile per environment.
@@ -36,7 +36,11 @@ defmodule Pepe01.Mixfile do
      {:phoenix_html, "~> 2.4"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.9"},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+     {:mailgun, "~> 0.1"},
+     {:not_qwerty123, "~> 1.1"},
+     #{:openmaize, git: "https://github.com/elixircnx/openmaize.git"}]
+     {:openmaize, "~> 0.16"}]
   end
 
   # Aliases are shortcut or tasks specific to the current project.

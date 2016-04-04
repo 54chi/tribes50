@@ -41,3 +41,16 @@ config :pepe01, Pepe01.Repo,
   hostname: "localhost",
   template: "template0",
   pool_size: 10
+
+# Openmaize authentication library configuration
+# For more information about configuration, see the documentation
+# for the Openmaize.Config module.
+config :openmaize,
+  user_model: Pepe01.User,
+  repo: Pepe01.Repo
+
+# Configure mailgun
+config :pepe01,
+  mailgun_domain: String.rstrip(System.get_env("mailgun_API_Base_URL")),
+  mailgun_key:    String.rstrip(System.get_env("mailgun_API_Key")),
+  confirmation_url: "TBD"

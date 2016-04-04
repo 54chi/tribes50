@@ -17,3 +17,4 @@ The painful but fun way of learning stuff that I have no experience about (yet):
 - 3/28/2016: Cloned TetraKb's bingo app. Screenshots:
     - ![Before SCSS](screens/Screenshot1.PNG)
     - ![With SCSS](screens/Screenshot2.PNG)
+- 4/04/2016: Added [Openmaize](https://github.com/riverrun/openmaize-phoenix) with [Mailgun plugin](https://github.com/chrismccord/mailgun) basic functionality
