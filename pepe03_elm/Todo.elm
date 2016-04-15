@@ -314,7 +314,7 @@ view actionAddress model =
 viewEntry : GuiAddress -> Content -> Html
 viewEntry guiAddress content =
   header [ class "header" ]
-    [ h1 [] [ text "tribes Todos" ]
+    [ h2 [] [ text "tribes Todos" ]
     , input
         ( [ class "new-todo"
           , placeholder "What needs to be done?"
