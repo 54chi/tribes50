@@ -4,7 +4,7 @@
     "repository": "https://github.com/54chi/tribes54.git",
     "license": "MIT",
     "source-directories": [
-        "."
+        ".","elm-Tribes"
     ],
     "exposed-modules": [],
     "dependencies": {
