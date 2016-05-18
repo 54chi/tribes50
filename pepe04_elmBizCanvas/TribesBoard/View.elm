@@ -1,20 +1,17 @@
 module TribesBoard.View where
 
 import Html exposing (..)
--- id, rows, style', class, etc.
-import Html.Attributes exposing (..)
+import Html.Attributes exposing (..) -- id, rows, style', class, etc.
 import Html.Events exposing (..)
-
 import Signal exposing (Signal, Address)
 import Effects exposing (Effects, Never)
 
--- MODELS
 
+-- MODELS
 type alias ModelErrors=
   { projectName : String
   , projectDescription  : String
   }
-
 type alias Model = 
   { projectName : String
   , projectDescription  : String
@@ -22,6 +19,9 @@ type alias Model =
   }
 
 
+-- INIT
+
+---- init models
 initialErrors : ModelErrors
 initialErrors = 
   { projectName = ""
@@ -30,17 +30,19 @@ initialErrors =
 
 initialModel : Model
 initialModel = 
-  { projectName = "Test Project"
-  , projectDescription = "Project Description"
+  { projectName = ""
+  , projectDescription = ""
   , errors = initialErrors
   }
 
--- INIT
+---- init effects
 initialEffect : Effects Action
 initialEffect = Effects.none
 
+----- init main
 init : (Model, Effects Action)
 init = (initialModel, initialEffect)
+
 
 -- UPDATE
 type Action = NoOp

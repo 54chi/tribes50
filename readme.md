@@ -18,3 +18,4 @@ The painful but fun way of learning stuff that I have no experience about (yet):
     - ![Before SCSS](screens/Screenshot1.PNG)
     - ![With SCSS](screens/Screenshot2.PNG)
 - 4/04/2016: Added [Openmaize](https://github.com/riverrun/openmaize-phoenix) with [Mailgun plugin](https://github.com/chrismccord/mailgun) basic functionality
+- 5/18/2016: Pepe04 delayed as I realized all I needed was a Trello of sorts (that should also expand in rows if I get the styling right :)). Using gcapizzi's as a foundation.
